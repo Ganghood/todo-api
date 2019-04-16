@@ -136,7 +136,13 @@
 				<configuration>
 				    <container>
     					<containerId>jetty7x</containerId>
+				    	<type>embedded</type>
 				    </container>
+				    <configuration>
+					 <properties>
+					    <cargo.servlet.port>8088</cargo.servlet.port>
+					 </properties>
+				      </configuration>
 				</configuration>
 			</plugin>
 		</plugins>
