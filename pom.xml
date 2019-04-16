@@ -111,11 +111,6 @@
 			    <version>2.19</version>
 			    <configuration>
 				<useSystemClassLoader>false</useSystemClassLoader>
-				<forkMode>once</forkMode>
-				<argLine>-Dfile.encoding=UTF-8</argLine>
-				<suiteXmlFiles>
-				    <suiteXmlFile>${suiteXmlFiles}</suiteXmlFile>
-				</suiteXmlFiles>
 				<testFailureIgnore>true</testFailureIgnore>
 			    </configuration>
 			</plugin>
