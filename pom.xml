@@ -129,6 +129,11 @@
 					<mainClass>com.cloudbees.examples.todo.api.Main</mainClass>
 				</configuration>
 			</plugin>
+			<plugin>
+			  <groupId>org.codehaus.cargo</groupId>
+			  <artifactId>cargo-maven2-plugin</artifactId>
+			  <version>1.7.3</version>
+			</plugin>
 		</plugins>
 	</build>
 
