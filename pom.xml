@@ -135,8 +135,10 @@
 			  <version>1.4.8</version>
 				<configuration>
 				    <container>
-    					<containerId>jetty8x</containerId>
-				    	<type>embedded</type>
+    					<containerId>tomcat8x</containerId>
+					<zipUrlInstaller>
+				            <url>http://repo1.maven.org/maven2/org/apache/tomcat/tomcat/8.5.9/tomcat-8.5.9.zip</url>
+					</zipUrlInstaller>
 				    </container>
 				    <configuration>
 					 <properties>
