@@ -133,6 +133,11 @@
 			  <groupId>org.codehaus.cargo</groupId>
 			  <artifactId>cargo-maven2-plugin</artifactId>
 			  <version>1.7.3</version>
+				<configuration>
+				    <container>
+    					<containerId>jetty7x</containerId>
+				    </container>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
